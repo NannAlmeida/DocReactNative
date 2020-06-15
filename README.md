@@ -59,19 +59,73 @@ APIs:
 
 ### [omnistack-mobile](https://github.com/EmanuelOSSouza/omnistack-mobile)
   No projeto omnistack foi utilizado os seguintes componentes:
+  
   - React
-  - View: Trata-se de um contêiner que suporta onde pode ser utilizado para interagir com outros componetes. Comporta-se de forma semelhante a <div> no HTML.
-  - Text: Basicamente exibe textos. Comporta-se de forma semelhante a <p> no HTML.
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
+  - View: 
+  > Conceito: Trata-se de um contêiner que suporta onde pode ser utilizado para interagir com outros componetes. Comporta-se de forma semelhante a <div> no HTML.
+  > Exemplo de uso:
+  > Video referencia:
+  
+  - Text: 
+  > Conceito: Basicamente exibe textos. Comporta-se de forma semelhante a <p> no HTML.
+  > Exemplo de uso:
+  > Video referencia:
+  
   - Image: Exibe diferentes tipos de imagens 
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
   - TouchableOpacity 
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
   - StyleSheet
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
   - FlatList
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
   - useNavigation
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
   - axios
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
   - NavigationContainer
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
   - createStackNavigator
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
   - Linking
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
   - Feather
+  
+  > Conceito:
+  > Exemplo de uso:
+  > Video referencia:
+  
   
 ### [SENAI-IBGE](https://github.com/EmanuelOSSouza/SENAI-IBGE)
 
