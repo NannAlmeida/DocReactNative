@@ -70,21 +70,26 @@ APIs:
   - View: 
   > Conceito: Trata-se de um contêiner que suporta onde pode ser utilizado para interagir com outros componetes. Comporta-se de forma semelhante a <div> no HTML.
   
-  > Exemplo de uso:
+  > Exemplo de uso: 
+      <View style={styles.container}><\View>
   
   > Video referencia:
   
   
   - Text: 
   > Conceito: Basicamente exibe textos. Comporta-se de forma semelhante a <p> no HTML.
+  
   > Exemplo de uso:
+   <Text style={[styles.incidentProperty, {marginTop:0}]}>ONG:</Text>
+  
   > Video referencia:
   
-  - Image: Exibe diferentes tipos de imagens 
-  > Conceito:
+  - Image:
+  > Conceito: Exibe imagens que podem está localizadas localmente ou remotamante.
   
   > Exemplo de uso:
-  
+    <Image source={logoImg} />
+    
   > Video referencia:
   
   
@@ -92,6 +97,7 @@ APIs:
   > Conceito:
   
   > Exemplo de uso:
+    <TouchableOpacity style={styles.action} onPress = {sendMail}>
   
   > Video referencia:
   
@@ -100,6 +106,7 @@ APIs:
   > Conceito:
   
   > Exemplo de uso:
+    <Text style={styles.incidentValue}><\Text>
   
   > Video referencia:
   
@@ -108,6 +115,13 @@ APIs:
   > Conceito:
   
   > Exemplo de uso:
+    <FlatList style={Styles.list} data={statesInfo} keyExtractor={state => state.id} renderItem={({ item }) => {
+                return (
+                    <TouchableOpacity onPress={() => { navigation.navigate('State', item); }} style={Styles.categoryButton}>
+                        <Text style={Styles.titleButtonCategory}>{ item.state }</Text>
+                    </TouchableOpacity>
+                );
+            }} />
   
   > Video referencia:
   
@@ -116,7 +130,10 @@ APIs:
   > Conceito:
   
   > Exemplo de uso:
-  
+    function navigationBack(){
+        navigation.goBack();
+    }
+    
   > Video referencia:
   
   
@@ -124,6 +141,9 @@ APIs:
   > Conceito:
   
   > Exemplo de uso:
+    const Api = Axios.create({
+    baseURL: 'http://192.168.1.104:3333'
+    });
   
   > Video referencia:
   
@@ -132,6 +152,8 @@ APIs:
   > Conceito:
   
   > Exemplo de uso:
+      <NavigationContainer>
+      </NavigationContainer>
   
   > Video referencia:
   
@@ -140,6 +162,12 @@ APIs:
   > Conceito:
   
   > Exemplo de uso:
+    const AppStack = createStackNavigator();
+      ....
+      <AppStack.Navigator headerMode='none' initialRouteName='Home'>
+          <AppStack.Screen name='Home' component={Home} />
+      </AppStack.Navigator>
+      
   
   > Video referencia:
   
@@ -148,6 +176,7 @@ APIs:
   > Conceito:
   
   > Exemplo de uso:
+  Linking.openURL(`whatsapp://send?phone=${incident.whatsapp}&text=${message}`);
   
   > Video referencia:
   
