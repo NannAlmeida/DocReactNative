@@ -61,8 +61,8 @@ APIs:
   No projeto omnistack foi utilizado os seguintes componentes:
   
   - React
-  > Conceito:
-  > Exemplo de uso:
+  > Conceito: Componente principal responsavel por carregar os outros componentes do react
+  > Exemplo de uso: import React from 'react';
   > Video referencia:
   
   - View: 
