@@ -60,7 +60,7 @@ APIs:
 ### [omnistack-mobile](https://github.com/EmanuelOSSouza/omnistack-mobile)
   No projeto omnistack foi utilizado os seguintes componentes:
   
-  - React
+  - **React**
   > Conceito: Componente principal responsavel por carregar os outros componentes do react
   
   > Exemplo de uso: import React from 'react';
@@ -76,7 +76,7 @@ APIs:
   > Video referencia:
   
   
-  - Text: 
+  - **Text: **
   > Conceito: Basicamente exibe textos. Comporta-se de forma semelhante a <p> no HTML.
   
   > Exemplo de uso:
@@ -84,7 +84,7 @@ APIs:
   
   > Video referencia:
   
-  - Image:
+  - **Image:**
   > Conceito: Exibe imagens que podem está localizadas localmente ou remotamante.
   
   > Exemplo de uso:
@@ -93,7 +93,7 @@ APIs:
   > Video referencia:
   
   
-  - TouchableOpacity 
+  - **TouchableOpacity **
   > Conceito:
   
   > Exemplo de uso:
@@ -102,16 +102,15 @@ APIs:
   > Video referencia:
   
   
-  - StyleSheet
+  - **StyleSheet**
   > Conceito:
   
-  > Exemplo de uso:
-    <Text style={styles.incidentValue}><\Text>
+  > Exemplo de uso:  <Text style={styles.incidentValue}><\Text>
   
   > Video referencia:
   
   
-  - FlatList
+  - **FlatList**
   > Conceito:
   
   > Exemplo de uso:
@@ -126,7 +125,7 @@ APIs:
   > Video referencia:
   
   
-  - useNavigation
+  - **useNavigation**
   > Conceito:
   
   > Exemplo de uso:
@@ -137,7 +136,7 @@ APIs:
   > Video referencia:
   
   
-  - axios
+  - **axios**
   > Conceito:
   
   > Exemplo de uso:
@@ -148,7 +147,7 @@ APIs:
   > Video referencia:
   
   
-  - NavigationContainer
+  - **NavigationContainer**
   > Conceito:
   
   > Exemplo de uso:
@@ -158,7 +157,7 @@ APIs:
   > Video referencia:
   
   
-  - createStackNavigator
+  - **createStackNavigator**
   > Conceito:
   
   > Exemplo de uso:
@@ -172,7 +171,7 @@ APIs:
   > Video referencia:
   
   
-  - Linking
+  - **Linking**
   > Conceito:
   
   > Exemplo de uso:
@@ -181,11 +180,11 @@ APIs:
   > Video referencia:
   
   
-  - Feather
+  - **Feather**
   > Conceito:
   
   > Exemplo de uso:
-  
+      <Feather name="arrow-left" size={28} color="#E82041" />
   > Video referencia:
   
   
