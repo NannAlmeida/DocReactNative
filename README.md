@@ -57,12 +57,29 @@ APIs:
 * Start na aplicação
 
 
-# omnistack-mobile
+### [omnistack-mobile](https://github.com/EmanuelOSSouza/omnistack-mobile)
+  No projeto omnistack foi utilizado os seguintes componentes:
+  - React
+  - View: Trata-se de um contêiner que suporta onde pode ser utilizado para interagir com outros componetes. Comporta-se de forma semelhante a <div> no HTML.
+  - Text: Basicamente exibe textos. Comporta-se de forma semelhante a <p> no HTML.
+  - Image: Exibe diferentes tipos de imagens 
+  - TouchableOpacity 
+  - StyleSheet
+  - FlatList
+  - useNavigation
+  - axios
+  - NavigationContainer
+  - createStackNavigator
+  - Linking
+  - Feather
+  
+### [SENAI-IBGE](https://github.com/EmanuelOSSouza/SENAI-IBGE)
 
-# SENAI-IBGE
-# YouFlix
-# CoronaApp
-# CoronaAppBack
+### [YouFlix](https://github.com/EmanuelOSSouza/YouFlix)
+
+### [CoronaApp](https://github.com/EmanuelOSSouza/CoronaApp)
+
+### [CoronaAppBack](https://github.com/EmanuelOSSouza/CoronaAppBack)
 
 
 **[Referências](https://reactnative.dev/)**
