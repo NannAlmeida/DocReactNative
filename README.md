@@ -71,7 +71,7 @@ APIs:
   > Conceito: Trata-se de um contêiner que suporta onde pode ser utilizado para interagir com outros componetes. Comporta-se de forma semelhante a <div> no HTML.
   
   > Exemplo de uso: 
-      <View style={styles.container}><\View>
+     " <View style={styles.container}><\View>"
   
   > Video referencia:
   
